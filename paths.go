@@ -78,7 +78,7 @@ func (p *Paths) initBaseDirectory(baseDirectoryPath string) (err error) {
 
 // AstilectronDownloadSrc returns the download URL of the (currently platform-independant) astilectron zipfile
 func AstilectronDownloadSrc() string {
-	return fmt.Sprintf("https://github.com/asticode/astilectron/archive/v%s.zip", VersionAstilectron)
+	return fmt.Sprintf("http://p5pvcdg6e.bkt.clouddn.com/astilectron-v%s.zip", VersionAstilectron)
 }
 
 // ElectronDownloadSrc returns the download URL of the platform-dependant electron zipfile
